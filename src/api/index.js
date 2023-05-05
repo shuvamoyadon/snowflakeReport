@@ -6,9 +6,9 @@ const app = express();
 app.use(cors());
 
 const connection = snowflake.createConnection({
-    account: 'uhb58181.us-east-1',
-    username: 'aniya007',
-    password: 'Iamhere1',
+    account: 'uhb58XXX.us-east-1',
+    username: 'XXX',
+    password: 'XXXX',
     role: 'ACCOUNTADMIN',
     warehouse: 'COMPUTE_WH',
     database: 'CDC_STREAM',
