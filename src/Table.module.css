@@ -1,0 +1,30 @@
+.table {
+    border-collapse: collapse;
+    font-size: 6px;
+    margin-left: 20px;
+    width: 50px; /* Adjust this value to set the desired table width */
+  }
+  
+  .table thead {
+    background-color: #f5f5f5;
+  }
+  
+  .table th,
+  .table td {
+    border: 1px solid #ccc;
+    padding: 1px;
+    text-align: left;
+  }
+  
+  .table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .table tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .table th {
+    font-weight: bold;
+  }
+  
